@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Hurricane
+- Font Author: Copyright 2016-2021 The Hurricane Project Authors (https://github.com/googlefonts/hurricane)
+- Font Source: http://fonts.gstatic.com/s/hurricane/v7/pe0sMIuULZxTolZ5YldyAv2-C99ycg.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
