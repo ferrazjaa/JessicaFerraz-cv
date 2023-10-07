@@ -1,3 +1,4 @@
+/* Resetando a página */
 *{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -5,15 +6,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif; 
-    /* background-color: rgba(255, 255, 255, 0.836); */
-  
+
 }
 
-
-
 body{
+    /* Altura das linhas */
     line-height: 1.5;
-    
+    /* Para deixar cada elemento em um canto */
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -29,32 +28,35 @@ a:visited{
     color:initial;
 }
 
-
+/* Container da página */
 .container{
     margin: 1em auto auto auto ;
     max-width: 1440px;
     background-color: #f1f1f1;
 }
 
+/* container para deixar em linhas */
 .row{
     padding: 0 8px;
 }
 
+/* Cabeçalho */
 header{
     background-color: #093c55!important;
     text-align: center;
     color: #FFFFFF;
-    padding: 15px;
     width: 100%;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    padding: 16px;
 }
 
+/* Meu nome */
 header h1{
     font-size: 2em;
-
     letter-spacing: 0.15em;
-
 }
+
+/* Objetivo */
 header h2{
     font-size: 1em;
     font-weight: 400;
@@ -66,20 +68,40 @@ header h2{
     padding:0 8px;
     float: left;
     width: 100%;
-    margin-bottom: 16px!important;
+    
+    
+}
+
+/* para deixar como se fosse um card */
+.infos{
+    padding: 0.02em 16px;
     background-color: #fff!important ;
     /* fica parecendo um card */
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 16px!important;
+    margin-top: 8px;
 }
 
-.infos{
-    padding: 0.01em 16px;
-}
-
+/* titulo das habilidasdes e idiomas */
 .infos p{
     margin: 1em 0;
    font-weight: 500;
 }
+
+/* Tamanho das sections do infos */
+.contatos, .habilidades{
+    padding: 0.02em 16px;
+}
+
+/* Margem entres os conteudos */
+.habilidades, .idiomas{
+    margin-bottom: 3rem;
+}
+.conteudo section{
+    margin-bottom:5em;
+    padding: 0.02em 16px;
+}
+
 
 .icones{
     color:  #093c55!important;
@@ -88,15 +110,17 @@ header h2{
 }
 
 /* aplicar margem em alguns icones */
-.fa-location-dot, .fa-envelope, .fa-laptop-code, .fa-whatsapp{
+.margin-icones{
     margin-right: 1em;
 }
+
 
 hr{
     border: 0;
     border-top: 1px solid #eee;
     margin: 20px 0;
 }
+
 /* titulos */
 h3{
     margin: 2em auto 1em auto;
@@ -106,15 +130,13 @@ h3{
 }
 
 
-
-.primeiro-container{
-     
+/* Barra de porcentagem */
+.primeiro-container{ 
     color: #000!important;
     background-color: #f1f1f1!important;
     border-radius: 1em;
     font-size: 0.75em!important;
     font-weight: 500;
-
 }
 
 .segundo-container{
@@ -132,20 +154,35 @@ h3{
     float: left;
     width: 100%;
     color: #000!important;
-    margin-bottom: 16px!important;
-    background-color: #fff!important;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    
+    
+   
 }
 
 .conteudo{
-   
+    background-color: #fff!important;
+   margin-bottom: 16px!important;
     padding: 0.01em 16px;
+     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 
 }
 
 
-.resumo-profissional p{
+.conteudo p{
     text-align: justify;
+
+}
+
+/* Titulos da seção direita sendo um pouco maiores */
+.conteudo h3{
+    font-size: 1.7em;
+    margin: 1em auto 1em auto;
+
+}
+
+.conteudo li, .cursos p{
+    margin-left: 4em;
+    padding: 1em;
 }
 
 
@@ -156,18 +193,35 @@ h3{
 footer{
     text-align: center;
     width: 100%;
-    margin-top: 3%;
+    padding: 1em 0;
     background-color: #093c55!important;
     color: #FFFFFF;
 }
 
 footer h2{
     font-size: 1.2em;
+    font-weight: 500;
 }
 
-footer a{
+footer p, footer a:visited{
     color: #FFFFFF; ;
 }
-.rede-sociais p a{
-    font-size: 3em;
+
+.redes-sociais{
+    margin-top:2em;
+}
+
+.redes-sociais p a{
+    font-size: 2.1em;
+    margin-right: 2em;
+}
+
+span{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+@media (min-width: 601px){
+   
 }
