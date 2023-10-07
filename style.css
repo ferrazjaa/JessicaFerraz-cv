@@ -1,3 +1,5 @@
+/* ESTILOS PARA TELAS */
+
 /* Resetando a página */
 *{
     box-sizing: border-box;
@@ -226,7 +228,7 @@ span{
 }
 
 
-@media (min-width: 758px){
+@media print and (min-width: 758px){
     .left-column{
         width: 33.33333%;
     }
@@ -238,5 +240,34 @@ span{
 }
 
 @media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+        /* margin: 10px; */
+    }
 
+    /* header{
+        background-color: #093c55!important;
+
+    }
+
+    h1, h2, h3{
+        color: #000;
+    }
+
+    hr{
+        border-top: 1px solid #eee;
+    }
+    .left-column{
+        width: 30%;
+    }
+
+    .right-column{
+        width: 70%;
+    } */
+   
+    .acessibilidade{
+        display: none;
+    }
+    
 }
+

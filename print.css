@@ -1,0 +1,20 @@
+/* ESTILOS PARA IMPRESSÕES */
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    
+}
+
+.left-column{
+    width: 33.33333%;
+}
+
+.right-column{
+    width: 66.66666%;
+}
+
+.acessibilidade{
+    display: none;
+    /* visibility: hidden; */
+}
