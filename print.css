@@ -1,20 +1,53 @@
 /* ESTILOS PARA IMPRESSÕES */
 
-html{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5em;
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent!important;
+    text-shadow: none!important;
+    box-shadow: none!important;
+    filter: none!important;
+
     
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+@page{
+    margin: 0.5cm;
+}
+
+h1{
+    font-size: 14pt;
+}
+h2,p{
+    font-size: 12pt;
+}
+
+a, a:visited, h2,h3, p{
+    color: black;
+}
+
+
+
 .left-column{
     width: 33.33333%;
+    display: block;
 }
 
 .right-column{
     width: 66.66666%;
+    display: block;
 }
 
-.acessibilidade{
+
+footer, .acessibilidade{
     display: none;
-    /* visibility: hidden; */
+    
 }
