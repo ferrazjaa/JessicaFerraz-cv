@@ -8,7 +8,7 @@ Este é o repositório do meu currículo, onde compartilho informações sobre m
 - **Localização:** Peruíbe, São Paulo
 - **E-mail:** ferrazjaa@gmail.com
 - **LinkedIn:** [Jéssica Ferraz](https://www.linkedin.com/in//ferrazjaa/)
-- **Portfólio:** [ferrazjaa.github.io]("https://ferrazjaa.github.io/)
+- **Portfólio:** [ferrazjaa.github.io](https://ferrazjaa.github.io/)
 
 
 ---
